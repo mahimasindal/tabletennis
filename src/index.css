@@ -1,0 +1,1101 @@
+@font-face {
+    font-family: 'Nunito';
+    src: local('Nunito'), url(./fonts/Nunito/Nunito-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SF pro display';
+    src: local('SFProDisplay'), url(./fonts/FontsFree-Net-SFProDisplay-Regular.ttf) format('truetype');
+}
+
+.topPadding {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*match/get/setId*/
+
+i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+}
+
+.sidenav {
+    /*display: flex;
+    flex-direction: row;
+    background-size: 100% 100%;*/
+    width: 100%;
+    height: 50%;
+    max-height: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.hometext {
+    font-family: SFProDisplay;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #585858;
+}
+
+.main {
+    margin-left: 20%;
+    margin: 0 auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+    margin-top: 450px;
+}
+
+.loginbutton {
+    width: 200px;
+    height: 45px;
+    font-family: Nunito;
+    color: white;
+    background: #5983E3;
+    box-shadow: 0px 2px 4px rgba(241, 236, 236, 0.863);
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 3% 10% 10% 10%;
+    margin-bottom: 2%;
+}
+
+.loginbutton:hover {
+    opacity: 70%;
+}
+
+.signupbutton {
+    color: #5983E3;
+    background: white;
+    height: 45px;
+    font-family: Nunito;
+    font-size: 1.15rem;
+    padding: 3% 10% 10% 10%;
+    margin-top: 15px;
+}
+
+.signupbutton:hover {
+    opacity: 70%;
+}
+
+@media screen and (min-width: 650px) {
+    .main {
+        padding-left: 50%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .sidenav {
+        width: 50%;
+        height: 100%;
+        max-height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+/*Signup page css*/
+
+.customIcon {
+    position: absolute;
+    left: auto;
+    right: 20%;
+    text-indent: 32px;
+    top: 15px;
+}
+
+.SignupRow1 {
+    font-family: Nunito;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 5%;
+    margin-bottom: 100pt;
+    text-align: center;
+}
+
+.input1 {
+    width: 70%;
+    height: 120%;
+    margin: 0 auto;
+}
+
+.continuebutton {
+    width: 200px;
+    height: 45px;
+    font-family: Nunito;
+    color: white;
+    background: #5983E3;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px 20px 20px 20px;
+    margin: 0 auto 0 auto;
+}
+
+.continuebutton:hover {
+    opacity: 70%;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.SignupRowLast {
+    font-family: Nunito;
+    font-size: 1rem;
+    font-weight: 100%;
+    text-align: center;
+    padding-top: 5%;
+    margin-top: 50pt;
+    margin-bottom: 50pt;
+}
+
+
+/*OTP page css*/
+
+.form-control1 {
+    -webkit-transition: none;
+    transition: none;
+    width: 32px;
+    height: 32px;
+    text-align: center
+}
+
+.form-control1:focus {
+    color: #3F4254;
+    background-color: #ffffff;
+    border-color: #884377;
+    outline: 0;
+}
+
+.form-control1.form-control-solid {
+    background-color: #F3F6F9;
+    border-color: #F3F6F9;
+    color: #3F4254;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-control1.form-control-solid:active,
+.form-control1.form-control-solid.active,
+.form-control1.form-control-solid:focus,
+.form-control1.form-control-solid.focus {
+    background-color: #EBEDF3;
+    border-color: #EBEDF3;
+    color: #3F4254;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+
+/*Header page css*/
+
+.stickyHead {
+    height: 63px;
+    z-index: 1;
+    background-color: white;
+    font-family: Nunito;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.padding19 {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+
+/* profile page css*/
+
+.upload:hover {
+    color: #7094E6;
+}
+
+.banner {
+    height: 250px;
+    background-color: #7094E6;
+    border-radius: 22px;
+    position: relative;
+}
+
+.avatar {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.profileimg {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.addPhoto {
+    margin-top: 80px;
+    color: #7094E6;
+    font-family: Nunito;
+}
+
+.userName {
+    font-family: Nunito;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.moreDetails {
+    font-family: Nunito;
+    color: #7094E6;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+
+/*css for Footer */
+
+.active {
+    color: #5983E3;
+}
+
+.noPadding {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    height: 70px;
+}
+
+.footer {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.407534);
+    height: 70px;
+}
+
+.icons {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.iconTags {
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 14px;
+    color: #ACACAC;
+}
+
+.iconTags:hover {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.link1 {
+    color: blue;
+}
+
+.link1:active {
+    color: red;
+}
+
+
+/*FirstTournament*/
+
+.greyText {
+    font-family: Nunito;
+    font-size: 26px;
+    padding-top: 30px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #B0B0B0;
+}
+
+
+/* AddPlayerForm css*/
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Add photo';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.roundprofileimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 6px 6px 6px 6px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.addPhoto1 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #7094E6;
+    font-family: Nunito;
+}
+
+.form1 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignLeft {
+    margin-left: auto;
+}
+
+.alignTop {
+    margin-top: 3px;
+}
+
+.alignRight1 {
+    margin-right: auto;
+}
+
+.alignRight {
+    margin-right: auto;
+    padding-left: 0%;
+}
+
+.label1 {
+    margin-left: 20px;
+}
+
+
+/*Player List CSS*/
+
+.playerList {
+    width: 80%;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+.box {
+    height: auto;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.202169);
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px 6px 12px 6px;
+    overflow: auto;
+}
+
+.box:hover {
+    height: auto;
+    text-decoration: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.202169);
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px 6px 12px 6px;
+    overflow: auto;
+}
+
+.box:hover {
+    font-size: 1.4rem;
+    text-decoration: none !important;
+}
+
+.a:hover {
+    text-decoration: none;
+}
+
+.roundprofileimg1 {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.202169);
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.roundprofileimg1:hover {
+    display: block;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.202169);
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.name1 {
+    font-family: Nunito;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.name2 {
+    font-family: Nunito;
+    font-size: 1rem;
+    margin-top: 6px;
+    color: black;
+}
+
+.content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.plusCircle {
+    font-size: 40px;
+    font-weight: 800;
+    font: outline;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    color: #5983E3;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    width: 40px;
+}
+
+.plusCircle:hover {
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 0px 2px #888;
+}
+
+
+/*Player Details and tournament details CSS*/
+
+.editCircle {
+    font-size: 40px;
+    font-weight: 800;
+    font: outline;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    color: #5983E3;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    width: 40px;
+}
+
+.noPadding {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.boxTournament {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 70px;
+}
+
+.box1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 100px;
+}
+
+.roundprofileimg2 {
+    display: block;
+    width: 110px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.202169);
+    margin-top: 6px;
+    max-width: 140px;
+}
+
+.greyText1 {
+    font-family: Nunito;
+    font-size: 1rem;
+    text-align: center;
+    color: #B0B0B0;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    left: 203px;
+    top: 385px;
+    border: 1px solid #979797;
+}
+
+.box2 {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.202169);
+    border-radius: 6px;
+    margin-top: 30px;
+    padding: 6px 6px 6px 6px;
+    overflow: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.trophy1 {
+    background-color: white;
+    color: gray;
+    border-radius: 50%;
+    font-size: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid;
+}
+
+.edit1 {
+    font-size: 40px;
+    font-weight: 800;
+    font: outline;
+    position: absolute;
+    bottom: 0;
+    right: 10;
+    color: #5983E3;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 800;
+    font: outline;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #5983E3;
+    background-color: white;
+}
+
+
+/*Tournament Audience CSS*/
+
+.stickyHead {
+    height: 63px;
+    z-index: 1;
+    background-color: white;
+    font-family: Nunito;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.stickyHead2 {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 44px;
+    left: 0px;
+    top: 60px;
+    background: #FFFFFF;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #5983E3;
+    text-decoration: none;
+    border-bottom: 4px solid #5983E3;
+}
+
+.nav-link {
+    font-family: Nunito;
+    font-size: 15px;
+    line-height: 40px;
+    color: #ACACAC;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: hidden;
+}
+
+.nav-tabs {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.202169);
+}
+
+.nav-item {
+    border: hidden;
+}
+
+
+/*Upcoming CSS*/
+
+.roundimg {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.202169);
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.tournamentList {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.tName {
+    font-family: Nunito;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.tName:hover {
+    text-decoration: none;
+}
+
+.greyText2 {
+    font-family: Nunito;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #B0B0B0;
+}
+
+.tStartDate {
+    font-family: Nunito;
+    font-size: 0.8rem;
+    margin-top: 6px;
+    color: black;
+}
+
+.name3 {
+    font-family: Nunito;
+    font-weight: 800;
+    margin-top: 6px;
+}
+
+.name4 {
+    font-family: Nunito;
+    font-size: 1rem;
+    margin-top: 6px;
+}
+
+.footer2 {
+    background-color: #5983E3;
+    font-family: Nunito;
+    color: white;
+    text-align: center;
+    height: 70px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    width: 100%;
+}
+
+
+/*Create Tournament*/
+
+.tournamentMain {
+    height: 80%;
+}
+
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+}
+
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+    content: "";
+    color: #aaa;
+}
+
+.maxScoreLable {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343435;
+}
+
+.bottomMargin {
+    margin-bottom: 5%;
+    line-height: 19px;
+}
+
+.name5 {
+    font-family: Nunito;
+}
+
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+
+/*Create draws*/
+
+.box3 {
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 6px 6px 6px 6px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.hr-style {
+    border-top: 7px solid rgba(0, 0, 0, .1);
+}
+
+.name5 {
+    font-family: Nunito;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.name6 {
+    font-family: Nunito;
+    font-size: 0.8rem;
+    margin-top: 6px;
+}
+
+.minus {
+    width: 30px;
+    height: 30px;
+}
+
+.plus {
+    width: 25px;
+    height: 25px;
+}
+
+.btn1 {
+    font-size: 0.7rem;
+    width: auto;
+}
+
+
+/*Create Matches*/
+
+.leftPic {
+    position: relative
+}
+
+.rightPic {
+    position: relative
+}
+
+.smallMedalLeft {
+    position: absolute;
+    width: 25px;
+    left: 10px;
+    top: 30px
+}
+
+.smallMedalRight {
+    position: absolute;
+    width: 25px;
+    right: 10px;
+    top: 30px;
+}
+
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.roundprofileimg3 {
+    padding: 6px 6px 6px 6px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 6px;
+    border: 1px solid #979797;
+    margin-bottom: 10px;
+}
+
+.dot {
+    width: 38px;
+    height: 38px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 50%;
+    background: #EBEBEB;
+    padding: 6px 6px 6px 6px;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marginBottom {
+    padding-bottom: 50px;
+}
+
+
+/*Scorer css*/
+
+.main-container2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.vertical {
+    border-left: 3px solid #EBEBEB;
+    z-index: -1;
+    height: 125%;
+    position: absolute;
+    left: 50%;
+}
+
+.name7 {
+    font-family: Nunito;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.roundprofileimg4 {
+    padding: 7px 7px 7px 7px;
+    width: 60%;
+    max-width: 110px;
+    border-radius: 50%;
+    margin-top: 25px;
+    border: 2px solid #EBEBEB;
+    margin-bottom: 20px;
+}
+
+.nameBlue {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #5983E3;
+    cursor: pointer;
+}
+
+.nameBlue:hover {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: 5983E3;
+    opacity: 70%;
+}
+
+.name8 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.box4 {
+    position: relative;
+    width: 170px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.smallMedal {
+    width: 21px
+}
+
+.leftIcon {
+    position: absolute;
+    padding-top: 20px;
+    top: -18px;
+    right: 175px;
+}
+
+.rightIcon {
+    position: absolute;
+    padding-top: 20px;
+    top: -18px;
+    left: 175px;
+}
+
+.plusCircle2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #54D17B;
+    margin-bottom: 20px;
+    margin-block: auto;
+}
+
+.plusCircle2:hover {
+    font-size: 45px;
+    font-weight: 800;
+    color: #54D17B;
+    margin-bottom: 20px;
+    margin-block: auto;
+    cursor: pointer;
+}
+
+.minusCircle2 {
+    margin-top: 5px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #DC6562;
+    margin-block: auto;
+}
+
+.minusCircle2:hover {
+    margin-top: 5px;
+    font-size: 45px;
+    font-weight: 800;
+    color: #DC6562;
+    margin-block: auto;
+    cursor: pointer;
+}
+
+.name9 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem;
+    color: #343435;
+}
+
+.box6 {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border: 1px solid #E3E3E3;
+    box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.291767);
+    border-radius: 11px;
+    z-index: inherit;
+    background: white;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.medal {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.medalSmall {
+    width: 20px;
+    height: 20px;
+}
+
+.name10 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #343435;
+    margin-bottom: 15px;
+}
+
+.button1 {
+    width: 80%;
+    max-width: 150px;
+    height: 45px;
+    font-family: Nunito;
+    color: white;
+    background: #5983E3;
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 10px 20px 20px 20px;
+    margin: 0 auto 0 auto;
+}
+
+
+/*fixture*/
+
+.fixtureName {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #343435;
+}
+
+.belowFixtureBox {
+    position: absolute;
+    bottom: -30px;
+    left: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #DC6562;
+}
+
+.belowFixtureBoxGreen {
+    position: absolute;
+    bottom: -30px;
+    left: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #54D17B;
+}
